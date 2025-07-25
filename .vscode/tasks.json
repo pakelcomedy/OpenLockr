@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Native (CMake)",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S", "${workspaceFolder}/native",
+        "-B", "${workspaceFolder}/native/build",
+        "-DCMAKE_TOOLCHAIN_FILE=${env:NDK_HOME}/build/cmake/android.toolchain.cmake",
+        "-DANDROID_ABI=armeabi-v7a",
+        "-DANDROID_PLATFORM=android-21"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Compile Native Lib",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build", "${workspaceFolder}/native/build",
+        "--target", "openlockr"
+      ],
+      "dependsOn": "Build Native (CMake)",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Assemble Debug APK",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew",
+      "args": [
+        "assembleDebug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

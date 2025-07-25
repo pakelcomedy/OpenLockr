@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Android App (Debug)",
+      "type": "android",
+      "request": "launch",
+      "mainClass": "com.openlockr.MainActivity",
+      "projectRoot": "${workspaceFolder}/app",
+      "adbExecutable": "adb"
+    },
+    {
+      "name": "Attach to Native (LLDB)",
+      "type": "lldb",
+      "request": "attach",
+      "pid": "${command:pickProcess}",
+      "sourceMap": {
+        "/mnt/data": "${workspaceFolder}/native/src"
+      }
+    }
+  ]
+}

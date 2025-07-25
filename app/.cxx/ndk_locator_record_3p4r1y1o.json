@@ -1,0 +1,11 @@
+{
+  "ndk": "D:\\Programming\\Unsort\\android-ndk-r27d",
+  "revision": {
+    "mMajor": 27,
+    "mMinor": 3,
+    "mMicro": 13750724,
+    "mPreview": 0,
+    "mPrecision": "MICRO",
+    "mPreviewSeparator": " "
+  }
+}
