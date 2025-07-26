@@ -1,0 +1,30 @@
+{
+  "buildFiles": [
+    "D:\\Programming\\Clone Github\\OpenLockr\\native\\CMakeLists.txt",
+    "D:\\Programming\\Unsort\\android-ndk-r27d\\build\\cmake\\android.toolchain.cmake",
+    "D:\\Programming\\Unsort\\android-ndk-r27d\\build\\cmake\\android-legacy.toolchain.cmake",
+    "D:\\Programming\\Unsort\\android-ndk-r27d\\build\\cmake\\abis.cmake",
+    "D:\\Programming\\Unsort\\android-ndk-r27d\\build\\cmake\\platforms.cmake",
+    "D:\\Programming\\Unsort\\android-ndk-r27d\\build\\cmake\\compiler_id.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\Programming\\Unsort\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Programming\\Clone Github\\OpenLockr\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\Programming\\Unsort\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"D:\\Programming\\Clone Github\\OpenLockr\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "openlockr-Debug-arm64-v8a": {
+      "artifactName": "openlockr",
+      "buildCommand": "D:\\Programming\\Unsort\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Programming\\Clone Github\\OpenLockr\\app\\.cxx\\cmake\\debug\\arm64-v8a\" openlockr",
+      "abi": "arm64-v8a",
+      "output": "D:\\Programming\\Clone Github\\OpenLockr\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libopenlockr.so",
+      "runtimeFiles": []
+    },
+    "sqlite3-Debug-arm64-v8a": {
+      "artifactName": "sqlite3",
+      "buildCommand": "D:\\Programming\\Unsort\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"D:\\Programming\\Clone Github\\OpenLockr\\app\\.cxx\\cmake\\debug\\arm64-v8a\" sqlite3",
+      "abi": "arm64-v8a",
+      "output": "D:\\Programming\\Clone Github\\OpenLockr\\app\\.cxx\\cmake\\debug\\arm64-v8a\\libsqlite3.a",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,123 @@
+The target system is: Android - 1 - aarch64
+The host system is: Windows - 10.0.22631 - AMD64
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_b8ddd"
+[1/2] Building C object CMakeFiles/cmTC_b8ddd.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_b8ddd
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_bd819"
+[1/2] Building C object CMakeFiles/cmTC_bd819.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_bd819
+Android (13691557, based on r522817d) clang version 18.0.4 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)
+Target: aarch64-none-linux-android21
+Thread model: posix
+InstalledDir: D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/bin
+ "D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=both --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_bd819 D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o "-LD:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64" -LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_bd819.dir/CMakeCCompilerABI.c.o "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(CMAKE_LINKER-NOTFOUND|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_bd819"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_bd819.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_bd819]
+  ignore line: [Android (13691557, based on r522817d) clang version 18.0.4 (https://android.googlesource.com/toolchain/llvm-project d8003a456d14a3deb8054cdaa529ffbf02d9b262)]
+  ignore line: [Target: aarch64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/bin]
+  link line: [ "D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld" --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -EL --fix-cortex-a53-843419 -z now -z relro -z max-page-size=4096 --hash-style=both --eh-frame-hdr -m aarch64linux -pie -dynamic-linker /system/bin/linker64 -o cmTC_bd819 D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o "-LD:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64" -LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_bd819.dir/CMakeCCompilerABI.c.o "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+    arg [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld] ==> ignore
+    arg [--sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+    arg [-EL] ==> ignore
+    arg [--fix-cortex-a53-843419] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-zmax-page-size=4096] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bd819] ==> ignore
+    arg [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o] ==> ignore
+    arg [-LD:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64] ==> dir [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64]
+    arg [-LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+    arg [-LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+    arg [-LD:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+    arg [--build-id=sha1] ==> ignore
+    arg [--no-rosegment] ==> ignore
+    arg [--no-undefined-version] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [CMakeFiles/cmTC_bd819.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a] ==> lib [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+    arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+    arg [-ldl] ==> lib [dl]
+    arg [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o] ==> ignore
+  remove lib [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  remove lib [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/libclang_rt.builtins-aarch64-android.a]
+  collapse library dir [D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64/lib/clang/18/lib/linux/aarch64] ==> [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/lib/linux/aarch64]
+  collapse library dir [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+  collapse library dir [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+  collapse library dir [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+  implicit dirs: [D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/18/lib/linux/aarch64;D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21;D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_30150"
+[1/2] Building C object CMakeFiles/cmTC_30150.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_30150
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_ec250"
+[1/2] Building C object CMakeFiles/cmTC_ec250.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_ec250
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe" "cmTC_069a2"
+[1/2] Building C object CMakeFiles/cmTC_069a2.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_069a2
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros

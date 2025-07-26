@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "927097585454",
+    "project_id": "openlockr",
+    "storage_bucket": "openlockr.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927097585454:android:9ddbec0dad4f5afad5c4bf",
+        "android_client_info": {
+          "package_name": "com.openlockr"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvgaOcCqWm--voZuK4AQ-i2ylJax_kx40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

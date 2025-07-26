@@ -1,0 +1,7 @@
+Executable : D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+arguments : 
+-C
+D:\Programming\Clone Github\OpenLockr\app\.cxx\cmake\debug\armeabi-v7a
+openlockr
+jvmArgs : 
+

@@ -1,0 +1,4 @@
+D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/sqlite3.dir
+D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/openlockr.dir
+D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

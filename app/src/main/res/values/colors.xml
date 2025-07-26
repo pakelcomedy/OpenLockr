@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color -->
+    <color name="colorPrimary">#6200EE</color>
+    <!-- Darker variant for status bar, etc. -->
+    <color name="colorPrimaryDark">#3700B3</color>
+    <!-- Accent/secondary color -->
+    <color name="colorAccent">#03DAC5</color>
+    <!-- Background and surface -->
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <!-- Text colors -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnBackground">#000000</color>
+    <color name="colorOnSurface">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,37 @@
+[
+{
+  "directory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -I\"D:/Programming/Clone Github/OpenLockr/native/src\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/crypto\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/storage\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/sync\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/utils\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -o CMakeFiles\\sqlite3.dir\\src\\storage\\sqlite3.c.o   -c \"D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\storage\\sqlite3.c\"",
+  "file": "D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\storage\\sqlite3.c"
+},
+
+{
+  "directory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dopenlockr_EXPORTS -I\"D:/Programming/Clone Github/OpenLockr/native/src\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/crypto\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/storage\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/sync\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/utils\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -o CMakeFiles\\openlockr.dir\\src\\core.c.o   -c \"D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\core.c\"",
+  "file": "D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\core.c"
+},
+
+{
+  "directory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dopenlockr_EXPORTS -I\"D:/Programming/Clone Github/OpenLockr/native/src\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/crypto\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/storage\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/sync\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/utils\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -o CMakeFiles\\openlockr.dir\\src\\crypto\\aes.c.o   -c \"D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\crypto\\aes.c\"",
+  "file": "D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\crypto\\aes.c"
+},
+
+{
+  "directory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dopenlockr_EXPORTS -I\"D:/Programming/Clone Github/OpenLockr/native/src\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/crypto\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/storage\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/sync\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/utils\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -o CMakeFiles\\openlockr.dir\\src\\storage\\localdb.c.o   -c \"D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\storage\\localdb.c\"",
+  "file": "D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\storage\\localdb.c"
+},
+
+{
+  "directory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dopenlockr_EXPORTS -I\"D:/Programming/Clone Github/OpenLockr/native/src\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/crypto\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/storage\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/sync\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/utils\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -o CMakeFiles\\openlockr.dir\\src\\sync\\firestore_sync.c.o   -c \"D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\sync\\firestore_sync.c\"",
+  "file": "D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\sync\\firestore_sync.c"
+},
+
+{
+  "directory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "command": "D:\\Programming\\Unsort\\android-ndk-r27d\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dopenlockr_EXPORTS -I\"D:/Programming/Clone Github/OpenLockr/native/src\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/crypto\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/storage\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/sync\" -I\"D:/Programming/Clone Github/OpenLockr/native/src/utils\"  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -o CMakeFiles\\openlockr.dir\\src\\utils\\base64.c.o   -c \"D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\utils\\base64.c\"",
+  "file": "D:\\Programming\\Clone Github\\OpenLockr\\native\\src\\utils\\base64.c"
+}
+]

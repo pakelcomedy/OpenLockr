@@ -1,0 +1,21 @@
+ninja: Entering directory `D:\Programming\Clone Github\OpenLockr\app\.cxx\cmake\debug\armeabi-v7a'
+[1/8] Building C object CMakeFiles/openlockr.dir/src/sync/firestore_sync.c.o
+[2/8] Building C object CMakeFiles/openlockr.dir/src/crypto/aes.c.o
+FAILED: CMakeFiles/openlockr.dir/src/crypto/aes.c.o 
+D:\Programming\Unsort\android-ndk-r27d\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi21 --sysroot=D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dopenlockr_EXPORTS -I"D:/Programming/Clone Github/OpenLockr/native/src" -I"D:/Programming/Clone Github/OpenLockr/native/src/crypto" -I"D:/Programming/Clone Github/OpenLockr/native/src/storage" -I"D:/Programming/Clone Github/OpenLockr/native/src/sync" -I"D:/Programming/Clone Github/OpenLockr/native/src/utils" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99 -MD -MT CMakeFiles/openlockr.dir/src/crypto/aes.c.o -MF CMakeFiles\openlockr.dir\src\crypto\aes.c.o.d -o CMakeFiles/openlockr.dir/src/crypto/aes.c.o   -c "D:/Programming/Clone Github/OpenLockr/native/src/crypto/aes.c"
+D:/Programming/Clone Github/OpenLockr/native/src/crypto/aes.c:5:10: fatal error: 'openssl/evp.h' file not found
+    5 | #include <openssl/evp.h>
+      |          ^~~~~~~~~~~~~~~
+1 error generated.
+[3/8] Building C object CMakeFiles/openlockr.dir/src/utils/base64.c.o
+[4/8] Building C object CMakeFiles/openlockr.dir/src/core.c.o
+D:/Programming/Clone Github/OpenLockr/native/src/core.c:33:9: warning: passing 'const uint8_t *' (aka 'const unsigned char *') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   33 |         (const uint8_t *)master_password,
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:/Programming/Clone Github/OpenLockr/native/src/core.h:35:17: note: passing argument to parameter 'password' here
+   35 |     const char *password, size_t password_len,
+      |                 ^
+1 warning generated.
+[5/8] Building C object CMakeFiles/openlockr.dir/src/storage/localdb.c.o
+[6/8] Building C object CMakeFiles/sqlite3.dir/src/storage/sqlite3.c.o
+ninja: build stopped: subcommand failed.

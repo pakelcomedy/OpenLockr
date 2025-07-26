@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Application name -->
+    <string name="app_name">OpenLockr</string>
+
+    <!-- UI labels -->
+    <string name="label_id">Entry ID</string>
+    <string name="label_input">Plaintext</string>
+    <string name="label_output">Decrypted Text</string>
+
+    <!-- Button texts -->
+    <string name="btn_encrypt_save">Encrypt &amp; Save</string>
+    <string name="btn_load_decrypt">Load &amp; Decrypt</string>
+
+    <!-- Prompts & errors -->
+    <string name="err_empty_fields">Please enter both ID and text.</string>
+    <string name="msg_encryption_failed">Encryption failed</string>
+    <string name="msg_save_failed">Saving entry failed</string>
+    <string name="msg_upload_failed">Upload failed</string>
+    <string name="msg_load_failed">Load/decrypt failed</string>
+    <string name="msg_saved_uploaded">Saved &amp; uploaded successfully</string>
+</resources>

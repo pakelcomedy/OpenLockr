@@ -24,7 +24,34 @@ extern "C" {
 #define OLKR_ERR_NOT_FOUND    6   ///< Requested entry not found locally or remotely
 
 /*=============================================================================
-  Initialization & Cleanup
+  Internal helpers (used by core.c; not part of the public API)
+=============================================================================*/
+
+/**
+ * Derive key via PBKDF2‑HMAC‑SHA256
+ * (wrapper around OpenSSL PKCS5_PBKDF2_HMAC or your own implementation).
+ */
+int pbkdf2_hmac_sha256(
+    const char *password, size_t password_len,
+    const uint8_t *salt,   size_t salt_len,
+    uint32_t iterations,
+    uint8_t *out_key,      size_t key_len
+);
+
+/**
+ * Upload Base64 ciphertext to Firestore under `id`.
+ */
+int firestore_sync_upload(const char *id, const char *b64_cipher);
+
+/**
+ * Download Base64 ciphertext from Firestore for `id`.
+ * Allocates *out_b64_cipher via malloc(); caller must free().
+ */
+int firestore_sync_download(const char *id, char **out_b64_cipher);
+
+
+/*=============================================================================
+  Public API
 =============================================================================*/
 
 /**
@@ -48,10 +75,6 @@ int openlockr_init(const char *master_password);
  */
 void openlockr_cleanup(void);
 
-/*=============================================================================
-  Encryption / Decryption
-=============================================================================*/
-
 /**
  * Encrypt a UTF-8 plaintext string into a Base64-encoded ciphertext.
  *
@@ -73,10 +96,6 @@ int openlockr_lock(const char *plain, char **out_b64);
  * @return OLKR_OK on success, or OLKR_ERR_* on failure.
  */
 int openlockr_unlock(const char *b64_cipher, char **out_plain);
-
-/*=============================================================================
-  Entry Storage & Synchronization
-=============================================================================*/
 
 /**
  * Save an encrypted entry identified by `id` to both local storage and Firestore.

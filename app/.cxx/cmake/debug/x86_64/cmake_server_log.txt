@@ -1,0 +1,170 @@
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"supportedProtocolVersions":[{"isExperimental":true,"major":1,"minor":1}],"type":"hello"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "handshake",
+  "cookie": "gradle-cmake-cookie",
+  "protocolVersion": {
+    "isExperimental": true,
+    "major": 1,
+    "minor": 1
+  },
+  "sourceDirectory": "D:/Programming/Clone Github/OpenLockr/native",
+  "buildDirectory": "D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64",
+  "generator": "Ninja"
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"gradle-cmake-cookie","inReplyTo":"handshake","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {
+  "type": "configure",
+  "cacheArguments": [
+    "",
+    "-DCMAKE_FIND_ROOT_PATH\u003dD:\\Programming\\Clone Github\\OpenLockr\\app\\.cxx\\cmake\\debug\\prefab\\x86_64\\prefab",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\Programming\\Unsort\\android-ndk-r27d\\build\\cmake\\android.toolchain.cmake",
+    "-DANDROID_ABI\u003dx86_64",
+    "-DANDROID_NDK\u003dD:\\Programming\\Unsort\\android-ndk-r27d",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DCMAKE_ANDROID_NDK\u003dD:\\Programming\\Unsort\\android-ndk-r27d",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dD:\\Programming\\Clone Github\\OpenLockr\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64",
+    "-DCMAKE_MAKE_PROGRAM\u003dD:\\Programming\\Unsort\\SDK\\cmake\\3.10.2.4988404\\bin\\ninja.exe",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_SYSTEM_VERSION\u003d21"
+  ]
+}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"CMake Warning at D:/Programming/Unsort/android-ndk-r27d/build/cmake/android-legacy.toolchain.cmake:431 (message):\n  An old version of CMake is being used that cannot automatically detect\n  compiler attributes.  Compiler identification is being bypassed.  Some\n  values may be wrong or missing.  Update to CMake 3.19 or newer to use\n  CMake's built-in compiler identification.\nCall Stack (most recent call first):\n  D:/Programming/Unsort/android-ndk-r27d/build/cmake/android.toolchain.cmake:55 (include)\n  D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)\n  CMakeLists.txt:2 (project)\n\n","title":"Warning","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: CMake Warning at D:/Programming/Unsort/android-ndk-r27d/build/cmake/android-legacy.toolchain.cmake:431 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/Programming/Unsort/android-ndk-r27d/build/cmake/android.toolchain.cmake:55 (include)
+  D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+CMAKE SERVER: CMake Warning at D:/Programming/Unsort/android-ndk-r27d/build/cmake/android-legacy.toolchain.cmake:431 (message):
+  An old version of CMake is being used that cannot automatically detect
+  compiler attributes.  Compiler identification is being bypassed.  Some
+  values may be wrong or missing.  Update to CMake 3.19 or newer to use
+  CMake's built-in compiler identification.
+Call Stack (most recent call first):
+  D:/Programming/Unsort/android-ndk-r27d/build/cmake/android.toolchain.cmake:55 (include)
+  D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake:6 (include)
+  CMakeLists.txt:2 (project)
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Configuring","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","message":"Configuring done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Configuring done
+CMAKE SERVER: Configuring done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"configure","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"compute"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","progressCurrent":1000,"progressMaximum":1000,"progressMessage":"Generating","progressMinimum":0,"type":"progress"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","message":"Generating done","type":"message"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: Generating done
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"compute","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"cmakeInputs"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","../../../Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","../../../Unsort/android-ndk-r27d/build/cmake/android.toolchain.cmake","../../../Unsort/android-ndk-r27d/build/cmake/android-legacy.toolchain.cmake","../../../Unsort/android-ndk-r27d/build/cmake/abis.cmake","../../../Unsort/android-ndk-r27d/build/cmake/platforms.cmake","../../../Unsort/android-ndk-r27d/build/cmake/compiler_id.cmake"]},{"isCMake":false,"isTemporary":true,"sources":["../app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeSystem.cmake","../app/.cxx/cmake/debug/x86_64/CMakeFiles/3.10.2/CMakeCCompiler.cmake"]}],"cmakeRootDirectory":"D:/Programming/Unsort/SDK/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"D:/Programming/Clone Github/OpenLockr/native","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"type":"codemodel"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64","name":"OpenLockrNative","sourceDirectory":"D:/Programming/Clone Github/OpenLockr/native","targets":[{"artifacts":["D:/Programming/Clone Github/OpenLockr/app/build/intermediates/cmake/debug/obj/x86_64/libopenlockr.so"],"buildDirectory":"D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99","defines":["openlockr_EXPORTS"],"includePath":[{"path":"D:/Programming/Clone Github/OpenLockr/native/src"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/crypto"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/storage"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/sync"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/utils"}],"isGenerated":false,"language":"C","sources":["src/core.c","src/crypto/aes.c","src/storage/localdb.c","src/sync/firestore_sync.c","src/utils/base64.c"]}],"fullName":"libopenlockr.so","linkFlags":"-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-llog libsqlite3.a -latomic -lm","linkerLanguage":"C","name":"openlockr","sourceDirectory":"D:/Programming/Clone Github/OpenLockr/native","sysroot":"D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"},{"artifacts":["D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64/libsqlite3.a"],"buildDirectory":"D:/Programming/Clone Github/OpenLockr/app/.cxx/cmake/debug/x86_64","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC   -std=gnu99","includePath":[{"path":"D:/Programming/Clone Github/OpenLockr/native/src"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/crypto"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/storage"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/sync"},{"path":"D:/Programming/Clone Github/OpenLockr/native/src/utils"}],"isGenerated":false,"language":"C","sources":["src/storage/sqlite3.c"]}],"fullName":"libsqlite3.a","linkerLanguage":"C","name":"sqlite3","sourceDirectory":"D:/Programming/Clone Github/OpenLockr/native","sysroot":"D:/Programming/Unsort/android-ndk-r27d/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"STATIC_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+

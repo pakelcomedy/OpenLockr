@@ -1,0 +1,21 @@
+                Executable : D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HD:\Programming\Clone Github\OpenLockr\native
+-DCMAKE_FIND_ROOT_PATH=D:\Programming\Clone Github\OpenLockr\app\.cxx\cmake\debug\prefab\x86_64\prefab
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=D:\Programming\Unsort\android-ndk-r27d\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=D:\Programming\Unsort\android-ndk-r27d
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=D:\Programming\Unsort\android-ndk-r27d
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=D:\Programming\Clone Github\OpenLockr\app\build\intermediates\cmake\debug\obj\x86_64
+-DCMAKE_MAKE_PROGRAM=D:\Programming\Unsort\SDK\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-BD:\Programming\Clone Github\OpenLockr\app\.cxx\cmake\debug\x86_64
+-GNinja
+jvmArgs : 
+
+Build command args:
